@@ -4,9 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name lib src/index.ts",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/lib.common.js",
+  "module": "src/index.ts",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
