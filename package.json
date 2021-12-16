@@ -1,7 +1,6 @@
 {
-  "name": "vue3-typescript-library-template",
+  "name": "@spreston8/vue3-typescript-library-template",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name lib src/index.ts",
@@ -50,5 +49,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spreston8/Vue3-Typescript-Library-Template.git"
+  }
 }
